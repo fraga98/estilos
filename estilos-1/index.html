@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Estilos-TP1</title>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+    <meta name="viewport" content="width=device-width, use-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale= 1.0">
+
+</head>
+<body>
+
+<!--Titulo-->
+
+	 <h1>TP5-estilos-1</h1>
+	 <h2>ALUMNO: Santiago Fraga</h2>
+
+
+<!--Alertas-->
+   
+<div class="container-number-one">
+
+   <h4>Alertas</h4>
+      <br> 
+	   <div class="hijo mensaje1"> <img class="img-icon" src="img/signo.png"> Mensaje de información que deseamos mostrar al usuario</div>
+
+	   <div class="hijo mensaje2"> <img class="img-icon" src="img/ok.png"> Mensaje de exito de la opeación realizada</div>
+
+	   <div class="hijo mensaje3"> <img class="img-icon" src="img/signo.png">Mensaje de alerta que deseamos mostrar al usuario</div>
+
+	   <div class="hijo mensaje4"> <img class="img-icon" src="img/cruz.png"> Mensaje que informa al usuario sobre el error que se ha producido </div>
+</div>
+
+<!--Login-->
+     
+   <center> 
+     <div class="containes-form"> 
+
+       	  <label class="ingreso">Ingreso al Sistema</label>
+               
+		  <form  class="form-contenedor1" method="POST" action="#">
+             
+               <br><br>
+      
+		  	 
+
+		  	 <label><img class="img-formu" src="img/usu.png"> </label><input class="input-form" type="text" name="user_" value="ADMINISTRADOR">
+               <br>
+             <label><img class="img-formu" src="img/llave.png"></label><input class="input-form" type="password" name="password_" value="11111">
+
+		  	   <br><br>
+
+		  	 <button id="enviar" name="enviar_"><img src="img/flecha.png" width="25px"> </button>
+		  	   <br><br>
+		  	 
+		  </form>
+            <br>
+          <h5>¿Cúal es mi usuario?</h5>
+	  </div>
+	</center>
+
+<!--Calculadora-->
+
+<center> 
+  
+  <div class="contenedor-container">
+   
+   <div class="contenedor-general"> 
+
+    <form class="form-contenedor2" method="GET" action="#"> 
+
+       <input class="pantalla-display" type="display" value="19 x 20">
+
+    </form>
+    
+	   <table class="table-calculator">
+
+	   	   <tr class="fila-formato">
+
+	   	   	  <th class="formato-th-td"><button class="button-calculadora especial-boton" name="C_">C</button></th>
+	   	   	  <th class="formato-th-td"><button class="button-calculadora especial-boton" name="C_">/</button></th>
+	          <th class="formato-th-td"><button class="button-calculadora especial-boton" name="*_">*</button></th>
+	          <th class="formato-th-td"><button class="button-calculadora especial-boton" name="menos_">-</button></th>
+	   	   </tr>
+               
+	   	   <tr class="fila-formato">
+	   	   	  
+	   	   	  <td class="formato-th-td"><button class="button-calculadora" name="siete_">7</td>
+	   	   	  <td class="formato-th-td"><button class="button-calculadora" name="ocho_">8</td>
+	   	   	  <td class="formato-th-td"><button class="button-calculadora" name="nueve_">9</td>
+	   	   	  <td class="formato-th-td" rowspan="2"><button class="button-calculadora suma especial-boton " name="+_">+</button></td>
+
+	   	   </tr>
+	   	    
+	   	   <tr class="fila-formato">
+	   	   	  
+	   	   	  <td class="formato-th-td"><button class="button-calculadora" name="cuatro_">4</td>
+	   	   	  <td class="formato-th-td"><button class="button-calculadora" name="cinco_">5</td>
+	   	   	  <td class="formato-th-td"><button class="button-calculadora" name="seis_">6</td>
+	   
+	   	   </tr>
+
+	   	   <tr class="fila-formato">
+	   	   	  
+	   	   	  <td class="formato-th-td"><button class="button-calculadora" name="uno_">1</td>
+	   	   	  <td class="formato-th-td"><button class="button-calculadora" name="dos_">2</td>
+	   	   	  <td class="formato-th-td"><button class="button-calculadora" name="tres_">3</td>
+	   	   	  <td class="formato-th-td" rowspan="2"><button class="button-calculadora suma especial-boton" name="igual_">=</td>
+
+	   	   </tr>
+           <tr class="fila-formato">
+	   	   	  
+	   	   	  <td class="formato-th-td" colspan="2"><button class="button-calculadora cero" name="cero_">0</td>
+	   	   	  <td class="formato-th-td"><button class="button-calculadora especial-boton" name="punto_">.</td>
+
+	   	   </tr>
+
+	   </table>
+    </div>
+   </div>
+</center>
+
+
+<!--tabla-->
+
+<div class="container-table">
+
+  <table class="finish-table" border="1">
+  	
+     <tr>
+     	 <td class="td-finish fila1">Corto</td>
+     </tr>
+
+       <tr>
+           <td class="td-finish fila2">Mediano</td>
+       </tr>
+
+     <tr>
+     	 <td class="td-finish fila3">Más ancho</td>
+     </tr>
+
+       <tr>
+     	   <td class="td-finish fila4">Mucho más ancho</td>
+       </tr>
+    
+   </table>
+</div>
+
+
+</body>
+</html>

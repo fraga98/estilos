@@ -1,0 +1,299 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+
+	background: #f8f8f8;
+	font-family: Arial;
+}
+
+/*---*/
+
+h1, h2{
+
+	color: blue;
+	padding: 10px;
+}
+
+
+/*----Alertas--*/
+
+.container-number-one{
+     
+     box-sizing: border-box;
+     margin-top: 50px;
+	 margin-left: 200px;
+	 margin-right: 200px;
+}
+
+.hijo{
+    
+	background: yellow;
+    border-radius: 10px;
+    padding: 20px;
+	margin-top: 10px;
+}
+
+.img-icon{
+
+	width: 30px;
+	margin-bottom: -7px;
+	margin-right: 10px;
+}
+
+.mensaje1{
+
+	background-color: #deffff;
+	border: 1px solid #3fc7d3;
+	color: #3fc7d3;
+
+}
+
+.mensaje2{
+
+	background-color: #d8fecd;
+	border: 1px solid #85d33f;
+	color: #85d33f;
+}
+
+.mensaje3{
+
+	background-color: #f7ffad;
+    border: 1px solid #b6b400;
+	color: #b6b400;
+}
+
+.mensaje4{
+
+	background-color: #ffadad;
+	border: 1px solid #930f0f;
+	color: #930f0f;
+}
+
+@media only screen and (max-width: 1000px){
+   
+   .container-number-one{
+     
+     box-sizing: border-box;
+    
+     margin: 50px 50px 50px 50px;
+   }
+}/*Repos*/
+
+
+@media only screen and (max-width: 600px){
+   
+   .container-number-one{
+     
+     box-sizing: border-box;
+    
+     margin: 50px 20px 20px 20px;
+   }
+
+
+}/*Repos*/
+
+/*---Formulario--*/
+
+.containes-form{
+   
+   margin-top: 50px;
+   margin-bottom: 80px;
+}
+
+.form-contenedor1{
+  
+   width: 250px;
+   border: 2px dashed #76b8ff;
+   border-top: none;
+   
+   padding: 20px;
+ 
+}
+
+.ingreso{
+/*caja titulo*/   
+	background-color: #76b8ff;
+	padding-left: 81px;
+	padding-right: 81px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+}
+
+.img-formu{
+    
+    width: 18px;
+}
+
+.input-form{
+    
+    text-align: center;
+    height: 30px;
+    background-color: #EAFFC5;
+    border: 2px dashed #57BC60;
+    border-left: 2px solid #57BC60;
+
+	margin: 7px auto 0 3px;
+}
+
+#enviar{
+/*Boton envio*/
+    
+    border:  2px solid green;
+
+    padding: 2px;
+    margin-right: -150px;
+    margin-top: 10px;
+}
+
+#enviar:hover{
+	background-color: white;
+	border: 2px dashed green;
+}
+
+/*-----calculadora---*/
+
+.contenedor-container{
+   
+   width: 320px;
+   height: 475px;
+   background: rgb(240,128,42);
+   background: linear-gradient(90deg, rgba(240,128,42,1) 0%, rgba(218,89,134,1) 65%, rgba(227,8,89,1) 100%);
+   border-radius: 20px;
+   padding-top: 20px ;
+   margin-bottom: 100px;
+
+}
+
+.contenedor-general{
+    
+    width: 270px;
+    height: 445px;
+	background-color: #fa9dd9;
+    border-radius: 10px;
+	padding-top: 10px;
+}
+
+.pantalla-display{
+   
+   width: 212px;
+   height: 40px;
+   background-color: #3e3939;
+   border:  1px solid black;
+   color: white;
+   font-size: 25px;
+   font-weight: bolder;
+   text-align: right;
+   
+   padding-right: 20px;
+   padding: 10px;
+   margin-bottom: 5px;
+}
+
+
+.table-calculator{
+/*tabla*/
+    
+    border-collapse: collapse;
+    text-align: center;
+    
+	margin-bottom: 100px;
+}
+
+.formato-th-td{
+	padding: 1px;
+}
+
+.button-calculadora{
+/*Botones-calculadora*/
+   
+   background-color: #ff80d1;
+   color: white;
+   font-weight: bolder;
+   font-size: 16px;
+   border: 1px solid white;
+
+   padding: 20px;
+   margin: 2px;
+}
+
+.especial-boton{
+
+	background-color: #711339;
+}
+
+.form-contenedor2{
+  
+   width: 244px;
+   padding-top: 10px;
+
+}
+
+td{padding: 1px;}
+
+.button-calculadora:hover{
+
+   background-color: #ffc7eb;
+}
+/*--botones especiales*/
+.suma{
+
+	height: 132px;
+}
+
+.cero{
+
+	width: 112px;
+}
+
+/*------Tabla----*/
+
+.container-table{
+
+	display: flex;
+	justify-content: center;
+
+	margin-bottom: 100px;
+
+}
+
+.finish-table{
+/*table*/
+    border-collapse: collapse;
+    border: 10px solid #cbcaca;
+
+    padding: 50px;
+
+}
+
+.td-finish{
+	padding: 10px 200px 10px 10px ;
+	border:  1px solid white;
+}
+
+.fila1{
+
+	background-color: #e9e4e4;
+}
+
+.fila2{
+
+	background-color: #81bef8;
+}
+
+.fila3{
+
+	background-color: #0868c3;
+	color: white;
+}
+
+.fila4{
+
+	background-color: #0868c3;
+	color: white;
+}
+
+
